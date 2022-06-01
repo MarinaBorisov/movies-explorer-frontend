@@ -1,0 +1,44 @@
+.navtab {
+  width: max-content;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.navtab__element {
+  background: #E8E8E8;
+  width: 96px;
+  height: 36px;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  outline: none;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: .2s ease;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+}
+
+.navtab__element:last-of-type {
+  margin: 0;
+}
+
+.navtab__element:hover {
+  opacity: 0.6;
+  transition-duration: 1s;
+}
+
+@media screen and (max-width: 767px) {
+  .navtab__element {
+      width: 82px;
+      height: 26px;
+      font-size: 10px;
+  }
+}
