@@ -1,17 +1,23 @@
 .navigation {
-  width: 1058px;
   display: flex;
-  justify-content: space-between;
-}
-
-@media screen and (max-width: 1279px) and (min-width: 300px) {
-  .navigation {
-		width: 100%;
-  }
+  justify-content: flex-end;
+  flex-grow: 1;
 }
 
 .navigation_without_signin {
-	display: block;
+  margin: 21px 70px;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 768px) {
+  .navigation_without_signin {
+    margin: 21px 30px;
+  }
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  .navigation_without_signin {
+    margin: 24px 14px;
+  }
 }
 
 .navigation__link {
@@ -77,6 +83,7 @@
 	display: flex;
   justify-content: center;
   flex-grow: 1;
+  margin-top: 28px;
 }
 
 .navigation__account-wrapper {
@@ -86,10 +93,12 @@
   justify-content: center;
   background: #F9F9F9;
   border-radius: 20px;
+  margin: 21px 70px 0 0;
 }
 
 .navigation__wrapper_without_signin {
 	justify-content: flex-end;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 1279px) and (min-width: 300px) {
@@ -123,6 +132,12 @@
 	align-items: center;
 	position: absolute;
   right: 0;
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px) {
+  .popup__container {
+		width: 320px;
+  }
 }
 
 .popup__wrapper {

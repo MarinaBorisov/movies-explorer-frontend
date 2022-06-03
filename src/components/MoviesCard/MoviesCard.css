@@ -88,12 +88,11 @@
 .movies-card__button_delete_card {
   background-image: url(../../images/button__delete.svg);
   align-self: center;
-  transform: rotate(45deg);
-  transition: transform 1s;
 }
 
 .movies-card__button_delete_card:hover {
-  transform: rotate(90deg);
+  opacity: 0.6;
+  transition-duration: 1s;
 }
 
 

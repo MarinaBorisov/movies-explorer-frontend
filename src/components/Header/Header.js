@@ -17,13 +17,11 @@ export const Header = (props) => {
   return (
     <header className={`header ${props.moviesBackground}`}>
       <Link to="/" className="logo"/>
-      <div className="header__wrapper">
-        <Navigation
-          isAuth={props.isAuth}
-          isOpenHamburger={isHamburgerOpen}
-          onHamburgerOpen={handleHamburgerOpen}
-          onHamburgerClose={handleHamburgerClose} />
-      </div>
+      <Navigation
+        isAuth={props.isAuth}
+        isOpenHamburger={isHamburgerOpen}
+        onHamburgerOpen={handleHamburgerOpen}
+        onHamburgerClose={handleHamburgerClose} />
     </header>
   );
 }
