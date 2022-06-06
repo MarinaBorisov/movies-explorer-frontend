@@ -44,6 +44,8 @@
 .movies-card__image {
   width: 100%;
   border-radius: 10px 10px 0 0;
+  max-height: 151px;
+  object-fit: cover;
 }
 
 .movies-card__wrapper {
@@ -99,4 +101,13 @@
 .movies-card__button_like_active {
   background-image: url(../../images/like__active.svg);
 
+}
+
+.movies__not-found {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
 }

@@ -135,6 +135,9 @@
   font-weight: 500;
   font-size: 13px;
   line-height: 16px;
+  border: none;
+  background-color: #FFFFFF;
+  cursor: pointer;
 }
 
 .profile__link:hover {
@@ -147,4 +150,8 @@
     font-size: 12px;
     line-height: 15px;
   }
+}
+
+.profile__disabled-button {
+  cursor: not-allowed;
 }

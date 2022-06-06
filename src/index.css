@@ -1,6 +1,13 @@
 @import './vendor/normalize.css';
 @import './vendor/fonts/Inter Web/inter.css';
 .page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 320px;
+    min-height: 100vh;
+    max-width: 1280px;
+    margin: 0 auto;    
     background-color: #FFFFFF;
     font-family: 'Inter', Arial, sans-serif, Helvetica;
 }
