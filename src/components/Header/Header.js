@@ -15,10 +15,10 @@ export const Header = (props) => {
     setIsHamburgerOpen(false)
   }
   return (
-    <header className={`header ${props.moviesBackground}`}>
+    <header className="header">
       <Link to="/" className="logo"/>
       <Navigation
-        isAuth={props.isAuth}
+        loggedIn={props.loggedIn}
         isOpenHamburger={isHamburgerOpen}
         onHamburgerOpen={handleHamburgerOpen}
         onHamburgerClose={handleHamburgerClose} />

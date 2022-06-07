@@ -84,24 +84,22 @@
   }
 }
 
-.form__wrapper:nth-child(3) {
+.form__wrapper:last-of-type {
   margin-bottom: 167px;
 }
 
 @media screen and (max-width: 767px) and (min-width: 300px) {
-  .form__wrapper:nth-child(3) {
+  .form__wrapper:last-of-type {
     margin-bottom: 220px;
   }
 }
 
-.form__wrapper_for_login {
-  margin-bottom: 221px;
-}
-
-@media screen and (max-width: 767px) and (min-width: 300px) {
-  .form__wrapper_for_login {
-    margin-bottom: 300px;
-  }
+.form__wrapper_for_error {
+  width: 100%;
+  position: relative;
+  margin-top: 0;
+  border-bottom: none;
+  padding: 0;
 }
 
 .form__button {

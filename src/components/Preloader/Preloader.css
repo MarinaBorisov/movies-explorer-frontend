@@ -77,12 +77,12 @@
 }
 
 .preloader__round::after {
-  background: white;
+  background: #3DDC84;
   animation: preloader-inside-white 1s ease-in-out infinite;
 }
 
 .preloader__round::before {
   z-index: 10;
-  background:  #272727;
-  animation: preloader-inside-grey 1s ease-in-out infinite;
+  background: #272727;
+  animation: preloader-inside-red 1s ease-in-out infinite;
 }

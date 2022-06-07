@@ -6,7 +6,7 @@ import { Hamburger } from '../Hamburger/Hamburger';
 export const Navigation = (props) => {
 	return (
 		<>
-			{props.isAuth && <nav className="navigation">
+			{props.loggedIn && <nav className="navigation">
 				<div className="navigation__wrapper navigation__wrapper_hidden">
 					<Link to="/movies" className="navigation__link">Фильмы</Link>
 					<Link to="/saved-movies" className="navigation__link navigation__link_active">Сохранённые фильмы</Link>
@@ -16,7 +16,7 @@ export const Navigation = (props) => {
 				</div>
 				<Hamburger className="header__hamburger header__hamburger_with_signin" onHamburgerOpen={props.onHamburgerOpen} />
 			</nav>}
-			{!props.isAuth && <nav className="navigation navigation_without_signin" >
+			{!props.loggedIn && <nav className="navigation navigation_without_signin" >
 				<div className="navigation__wrapper navigation__wrapper_without_signin">
 					<Link to="/signup" className="navigation__link">Регистрация</Link>
 					<Link to="/signin" className="navigation__link navigation__link_type_button">Войти</Link>

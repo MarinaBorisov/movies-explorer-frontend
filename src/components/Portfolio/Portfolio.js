@@ -14,11 +14,11 @@ export const Portfolio = () => {
 					</li>
 					<li className="portfolio__item">
 						<p className="portfolio__heading">Адаптивный сайт</p>
-						<a className="portfolio__link" rel="noreferrer" target="_blank" href="https://mb-mesto.surge.sh/"><img className="portfolio__image" src={image} alt="Ссылка" /></a>
+						<a className="portfolio__link" rel="noreferrer" target="_blank" href="http://russiantravel.site/"><img className="portfolio__image" src={image} alt="Ссылка" /></a>
 					</li>
 					<li className="portfolio__item">
 						<p className="portfolio__heading">Одностраничное приложение</p>
-						<a className="portfolio__link" rel="noreferrer" target="_blank" href="https://moretz.nomoredomains.work/"><img className="portfolio__image" src={image} alt="Ссылка" /></a>
+						<a className="portfolio__link" rel="noreferrer" target="_blank" href="https://mb-mesto.surge.sh/"><img className="portfolio__image" src={image} alt="Ссылка" /></a>
 					</li>
 				</ul>
 			</nav>

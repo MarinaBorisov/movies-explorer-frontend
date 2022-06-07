@@ -7,15 +7,8 @@ import { Techs } from '../Techs/Techs';
 
 export const Main = (props) => {
 
-	React.useEffect(() => {
-		props.setAuth(false);
-		return () => {
-			props.setAuth(true)
-		}
-	}, []);
-
 	return (
-		<main >
+		<main>
 			<Promo />
 			<AboutProject />
 			<Techs />
